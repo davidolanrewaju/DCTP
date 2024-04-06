@@ -4,31 +4,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
   </head>
   <body>
     <nav>
+        <h1>Olanrewaju David</h1>
       <ul>
         <li><a href="./index.html">Home</a></li>
-        <li><a href="./table.html">Table</a></li>
-        <li><a href="./form.html">Form</a></li>
+        <li><a href="./calculator.html">Calculator</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <section id="home">
-      <h1>Olanrewaju David</h1>
+    <div id="main-container">
+      <section class="about">
+        <div class="img-container">
+            <img src="/assets/images/IMG_1379 (2).jpeg" alt="image">
+        </div>
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>
+              A graduate of Mechatronics Enineering from the Federal University of
+              Technology, Owerri (FUTO). Currently going through my compulsory one
+              year of service (NYSC) at the "Home of Peace and Tourism" - Plateau,
+              Jos. <br> I have over a year of experience in frontend web development
+              (hoping to make money through tech 🙏)
+            </p>
+        </div>
+      </section>
 
-      <div class="about">
-        <h1>About Me</h1>
-        <p>
-          A graduate of Mechatronics Enineering from the Federal University of
-          Technology, Owerri (FUTO). Currently going through my compulsory one
-          year of service (NYSC) at the "Home of Peace and Tourism" - Plateau,
-          Jos. I have over a year of experience in frontend web development
-          (hoping to make money through tech 🙏)
-        </p>
-      </div>
+      <section class="education">
+        <h1>Education</h1>
+        <ul>
+          <li class="list">
+            <h3>FEDERAL UNIVERSITY OF TECHNOLOGY OWERRI(FUTO)</h3>
+            <div class="content">
+                <p>September 2016 – January 2023</p>
+                <p>B.Eng, Mechatronics Engineering</p>
+                <p>
+                  <b>Final Year Project</b> - “Design and Construction of Smart
+                  Glove for Hearing Impaired and Mute People”
+                </p>
+            </div>
+          </li>
+          <li class="list">
+            <h3>Microverse</h3>
+            <div class="content">
+                <p class="date">February 2023 – June 2023</p>
+                <p class="project">Remote Full-Stack Web Development Program, Full Time</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-      <giv class="goal">
+      <section class="job">
+        <h1>Job Experience</h1>
+        <ul>
+          <li class="list">
+            <h3>Microverse, <i>Remote</i></h3>
+            <p>April 2023 - June 2023</p>
+            <ul>
+              <li class="p">
+                Mentored 2 junior colleagues, providing technical support
+                through code reviews on their project.
+              </li>
+              <li class="p">
+                Proposed improvements to code organization to improve code
+                quality and overall performance
+              </li>
+            </ul>
+          </li>
+          <li class="list">
+            <h3>AxiaHub</h3>
+            <p>Febuary 2024 - Present</p>
+            <ul>
+              <li class="p">Code Instructor</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <div class="input">
+              <label for="name">Name:</label>
+              <input type="text" name="text" id="text" required />
+            </div>
+            <div class="input">
+              <label for="name">Email:</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="input">
+              <label for="name">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+              <select name="priority" id="priority">
+                <option value="">Select Priority</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+            </div>
+          </form>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="goal">
         <h1>Goals for this Diploma</h1>
         <ul>
           <li>
@@ -49,7 +134,4 @@
           </li>
           <li>Pursue opportunities for personal and professional growth.</li>
         </ul>
-      </giv>
-    </section>
-  </body>
-</html>
+      </div> -->
