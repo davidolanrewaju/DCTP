@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  max-width: 100vw;
+  background-color: #464646;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+  color: #2c2b2b;
+}
+
+nav h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #464646;
+}
+
+a:hover {
+  border-bottom: 1px solid #464646;
+  padding-bottom: 5px;
+}
+
+.about {
+  padding: 0 8rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.img-container img {
+  width: 35vw;
+}
+
+.about-content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.about-content p {
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 8rem;
+  background-color: #fff;
+  color: #464646;
+  height: 80vh;
+}
+
+.education h1,
+.job h1,
+.contact h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.education ul li,
+.job ul li {
+  list-style: none;
+}
+
+.list h3 {
+  font-size: 24px;
+  padding-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.list {
+  padding-top: 2rem;
+}
+
+.list p,
+.p {
+  padding-top: 0.3rem;
+  font-weight: 300;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 8rem;
+  background-color: #464646;
+  color: #fff;
+  height: 80vh;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 8rem;
+  background-color: #fff;
+  color: #464646;
+  height: 80vh;
+}
+
+form {
+  margin-top: 2rem;
+  width: 40vw;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #464646;
+}
+
+select {
+  padding: 0.5rem;
+  width: 10vw;
+  border-radius: 10px;
+  background-color: #464646;
+  outline: none;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 8rem;
+  background-color: #464646;
+  color: #fff;
+  height: 80vh;
+}
+
+.contact-container h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
