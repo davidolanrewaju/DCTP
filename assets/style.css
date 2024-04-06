@@ -87,7 +87,8 @@ a:hover {
 
 .education h1,
 .job h1,
-.contact h1 {
+.contact h1,
+.header h1 {
   font-size: 40px;
   text-transform: uppercase;
   padding-bottom: 0.5rem;
@@ -177,4 +178,23 @@ select {
   font-size: 40px;
   text-transform: uppercase;
   padding-bottom: 0.5rem;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 2rem;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+td:hover {
+background-color: #fff;
+color: #464646;
 }
